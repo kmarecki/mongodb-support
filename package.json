@@ -1,0 +1,31 @@
+{
+  "name": "mongodb-support",
+  "version": "0.0.1",
+  "description": "Helper classes for native mongodb driver",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kmarecki/mongodb-support.git"
+  },
+  "keywords": [
+    "mongodb",
+    "driver",
+    "support",
+    "test"
+  ],
+  "author": "Krzysztof Marecki",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kmarecki/mongodb-support/issues"
+  },
+  "homepage": "https://github.com/kmarecki/mongodb-support#readme",
+  "dependencies": {
+    "@types/lodash": "^4.14.63",
+    "@types/mongodb": "^2.2.2",
+    "lodash": "^4.17.4",
+    "mongodb": "^2.2.26"
+  }
+}
