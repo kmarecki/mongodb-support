@@ -1,1 +1,1 @@
-export { MongoSupport } from './mongodb-support/mongoSupport';
+export { MongoSupport } from './mongoSupport';
