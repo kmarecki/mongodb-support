@@ -1,6 +1,6 @@
 {
   "name": "mongodb-support",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Helper classes for native mongodb driver",
   "main": "index.js",
   "scripts": {
