@@ -27,4 +27,15 @@ export class MongoSupport {
                .value()));
         
     }
+
+    dropAllExcept(...dbnames: string[]): Promise<any> {
+        const regex = `(${dbnames.join('|')})`;
+        return this.db.collections()
+            .then((collections) => Promise.all(
+               _(collections)
+               .filter((collection) => !collection.collectionName.match(regex))
+               .map((collection) => collection.drop())
+               .value()));
+        
+    }
 }
